@@ -9,11 +9,16 @@ Pour cela on crée un système d'analyse des logs qui récupère les logs d'un s
 
 
 
+
+
+
 ARCHITECTURE MISEN EN PLACE:
 
 
 
+
 ![image](https://user-images.githubusercontent.com/115105703/236688102-45526cc2-c72a-4280-8474-4265d2cf1c76.png)
+
 
 
 
@@ -54,6 +59,8 @@ CONFIGURATION A METTRE EN PLACE:
   docker-compose up -d
   
   Le fichier docker-compose.yml configure trois services: RabittMQ, MySQL, PHPMyAdmin
+  
+  
   
   
 EXECUTION:
